@@ -1,6 +1,7 @@
 .DS_Store
 .thumbs.db
 crud-basico/node_modules
+crud-basico/README.md
 
 # Quasar core related directories
 crud-basico/.quasar
@@ -31,3 +32,37 @@ crud-basico/*.suo
 crud-basico/*.ntvs*
 crud-basico/*.njsproj
 crud-basico/*.sln
+
+quasar-estoque/node_modules
+quasar-estoque/.gitignore
+quasar-estoque/README.md
+
+# Quasar core related directories
+quasar-estoque/.quasar
+quasar-estoque/dist
+
+# Cordova related directories and files
+quasar-estoque/src-cordova/node_modules
+quasar-estoque/src-cordova/platforms
+quasar-estoque/src-cordova/plugins
+quasar-estoque/src-cordova/www
+
+# Capacitor related directories and files
+quasar-estoque/src-capacitor/www
+quasar-estoque/src-capacitor/node_modules
+
+# BEX related directories and files
+quasar-estoque/src-bex/www
+quasar-estoque/src-bex/js/core
+
+# Log files
+quasar-estoque/npm-debug.log*
+quasar-estoque/yarn-debug.log*
+quasar-estoque/yarn-error.log*
+
+# Editor directories and files
+quasar-estoque/.idea
+quasar-estoque/*.suo
+quasar-estoque/*.ntvs*
+quasar-estoque/*.njsproj
+quasar-estoque/*.sln
