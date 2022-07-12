@@ -1,33 +1,33 @@
 .DS_Store
 .thumbs.db
-node_modules
+crud-basico/node_modules
 
 # Quasar core related directories
-.quasar
-/dist
+crud-basico/.quasar
+crud-basico/dist
 
 # Cordova related directories and files
-/src-cordova/node_modules
-/src-cordova/platforms
-/src-cordova/plugins
-/src-cordova/www
+crud-basico/src-cordova/node_modules
+crud-basico/src-cordova/platforms
+crud-basico/src-cordova/plugins
+crud-basico/src-cordova/www
 
 # Capacitor related directories and files
-/src-capacitor/www
-/src-capacitor/node_modules
+crud-basico/src-capacitor/www
+crud-basico/src-capacitor/node_modules
 
 # BEX related directories and files
-/src-bex/www
-/src-bex/js/core
+crud-basico/src-bex/www
+crud-basico/src-bex/js/core
 
 # Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+crud-basico/npm-debug.log*
+crud-basico/yarn-debug.log*
+crud-basico/yarn-error.log*
 
 # Editor directories and files
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+crud-basico/.idea
+crud-basico/*.suo
+crud-basico/*.ntvs*
+crud-basico/*.njsproj
+crud-basico/*.sln
