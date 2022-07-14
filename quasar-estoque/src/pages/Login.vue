@@ -22,13 +22,22 @@
             type="submit"
           />
         </div>
-        <div class="full-width">
+        <div class="full-width q-gutter-y-md">
           <q-btn
             label="Cadastre-se"
             class="full-width"
             color="primary"
             flat
             to="/register"
+            size="sm"
+          />
+          <q-btn
+            label="Esqueci a senha"
+            class="full-width"
+            color="primary"
+            flat
+            :to="{ name: 'forgot-password'}"
+            size="sm"
           />
         </div>
       </div>
@@ -46,7 +55,7 @@ export default defineComponent({
 
   setup () {
     const router = useRouter()
-    const { Login } = useAuthUser()
+    const { login } = useAuthUser()
 
     const form = ref({
       email: '',
@@ -55,7 +64,7 @@ export default defineComponent({
 
     const handlerLogin = async () => {
       try {
-        await Login(form.value)
+        await login(form.value)
         router.push({ name: 'me' })
       } catch (error) {
         alert(error.message)
